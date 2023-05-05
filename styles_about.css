@@ -1,15 +1,12 @@
 body {
     background-color: rgb(207, 213, 219);
-    background-image: url(imagenes/fondo3.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );    background-position: center center;
     background-size: cover;
     
 }
 
 .color {
-    background-color: #859ed9c6;
+    background-color: rgba(139, 58, 38, 0.776);
 }
 
 .container {
@@ -17,7 +14,7 @@ body {
 }
 
 .fondo_about {
-    background-color: rgba(61, 106, 204, 0.967);
+    background-color: rgba(61, 106, 204, 0.311);
 }
 .titulo {
     margin-left: 20px;

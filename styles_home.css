@@ -1,7 +1,9 @@
 body {
-    background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );    
+    background-color: rgb(207, 213, 219);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );    background-position: center center;
+    background-size: cover;
+    
 }
-
 
 .color {
     background-color: #859ed9c6;
@@ -11,11 +13,6 @@ body {
 .prensentacion {
     height: 520px;
     padding-top: 5rem;
-    background-color: rgb(207, 213, 219);
-    background-image: url(imagenes/fondo3.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center center;
 }
 
 .avatar {
@@ -42,11 +39,4 @@ body {
     color: #68aae0;
 }
 
-.fondito{
-    background-color: rgb(207, 213, 219);
-    background-image: url(imagenes/fondo3.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center center;
-}
 

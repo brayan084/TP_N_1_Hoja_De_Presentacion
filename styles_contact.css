@@ -1,11 +1,10 @@
 body {
     background-color: rgb(207, 213, 219);
-    background-image: url(imagenes/fondo2.png);
+    background-image: url(imagenes/fondo4.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     /* background-position: center center; */
     background-size: cover;
-    
 }
 
 .color {

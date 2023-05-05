@@ -99,11 +99,13 @@ ul {
 /* CONTACT INFO */ aqui se puede hacer algo 
 .contact-info {
     background: #ea3d3d;
+    
 }
 
 .contact-info h4, .contact-info ul, .contact-info p {
     text-align: center;
     margin: 0 0 1rem 0;
+    margin-left: 40px;
 }
 
 /* LARGE SIZE */

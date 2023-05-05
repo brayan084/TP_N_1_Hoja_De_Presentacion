@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(207, 213, 219);
+    background-image: url(imagenes/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.color {
+    background-color: #859ed9c6;
+}
+
+.container {
+    border-radius: 15px;
+}
+
+.fondo_about {
+    background-color: rgba(61, 106, 204, 0.967);
+}
+.titulo {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.perfil {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 150px;
+}
+
+.descripcion {
+    text-align: left;
+    font-size: xx-large;
+    font-family: Verdana ;
+}
+
+.descripcion_2 {
+    font-size: x-large;
+    font-family: Verdana ;
+}
+
+.lista {
+    font-size: large;
+    list-style: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.espacio {
+    margin-bottom: 30px;
+}
+
+.espacio2 {
+    margin-bottom: 30px;   
+}
+
+.imagenes {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.font {
+    font-size: 30px;
+}
+

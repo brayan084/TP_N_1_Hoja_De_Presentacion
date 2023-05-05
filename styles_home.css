@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(207, 213, 219);
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    
+    
+}
+
+.color {
+    background-color: #859ed9c6;
+    
+}
+
+.prensentacion {
+    height: 520px;
+    padding-top: 5rem;
+    background-color: rgb(207, 213, 219);
+    background-image: url(imagenes/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.avatar {
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+
+.descripcion {
+    background-color: #859ed9;
+    font-size: 30px;
+    font-family: var(--bs-body-font-family);
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.nombre {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 80px;
+    color: #68aae0;
+}
+

@@ -14,10 +14,44 @@ body {
 
 .titulo {
     color: rgb(217, 161, 5);
-    margin-top: 100px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.titulo2 {
+    color: rgb(217, 161, 5);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .avatar {
-    display: inline-block;
-    margin-left: 100px;
+    margin-left: 70px;
 }
+
+.presentacion {
+    margin-top: 125px;
+    align-items: center;
+}
+
+
+.b1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.imagenes {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.font {
+    font-size: 30px;
+}
+
+.fondo_about {
+    margin-top: 200px;
+
+}
+

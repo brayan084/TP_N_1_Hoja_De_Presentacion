@@ -32,7 +32,7 @@ ul {
     text-align: center;
     font-size: 3em;
     margin-top: 35px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .logo span {
@@ -48,7 +48,8 @@ ul {
 }
 
 .contact-form {
-    background: #222222b9;
+    background: rgba(34, 34, 34, 0.587);
+    border-radius: 15px 0px 0px 15px;
 }
 
 .contact-form form {
@@ -99,13 +100,13 @@ ul {
 /* CONTACT INFO */ aqui se puede hacer algo 
 .contact-info {
     background: #ea3d3d;
-    
 }
 
 .contact-info h4, .contact-info ul, .contact-info p {
-    text-align: center;
+    text-align: center ;
     margin: 0 0 1rem 0;
     margin-left: 40px;
+    margin-top: 45px;
 }
 
 /* LARGE SIZE */
@@ -116,6 +117,7 @@ ul {
     .contact-wrapper {
         display: grid;
         grid-template-columns: 2fr 1fr;
+        border-radius: 15px;
     }
     .contact-wrapper > * {
         padding: 2em;

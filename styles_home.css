@@ -9,36 +9,15 @@ body {
 
 .color {
     background-color: rgba(111, 155, 249, 0);
-    
 }
 
-.prensentacion {
-    height: 520px;
-    padding-top: 5rem;
+
+.titulo {
+    color: rgb(217, 161, 5);
+    margin-top: 100px;
 }
 
 .avatar {
-    height: 200px;
-    margin-top: 50px;
-    margin-left: 80px;
+    display: inline-block;
+    margin-left: 100px;
 }
-
-
-.descripcion {
-    background-color: #859ed9;
-    font-size: 30px;
-    font-family: var(--bs-body-font-family);
-    border-radius: 15px;
-    text-align: center;
-    width: 100%;
-    
-}
-
-.nombre {
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 80px;
-    color: #68aae0;
-}
-
-

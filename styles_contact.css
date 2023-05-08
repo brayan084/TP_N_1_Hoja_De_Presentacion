@@ -90,6 +90,7 @@ ul {
 
 .contact-info {
     background: rgba(0, 0, 0, 0);
+    font-size: 22px;
 }
 
 /* centrar textos de la barra de informacion */
@@ -98,7 +99,8 @@ ul {
     text-align: center ;
     margin: 0 0 1rem 0;
     margin-left: 40px;
-    margin-top: 45px;
+    margin-top: 20px;
+
 }
 
 /* esto es la barra de informacion de la derecha */
@@ -120,4 +122,9 @@ ul {
     .contact-info p {
         text-align: left;
     }
+}
+
+/* oculta el boton feo de enviar */
+#truco {
+    opacity: 0;
 }

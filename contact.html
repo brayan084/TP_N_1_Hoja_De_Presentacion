@@ -100,7 +100,7 @@
     </nav>
 
     <!-- aca comienza la seccion de contacto -->
-    <!-- me inspire en el siguiente video () -->
+    <!-- me inspire en el siguiente video (https://www.youtube.com/watch?v=rXWNr8sEUXE) -->
 
     <div class="container">
 
@@ -108,26 +108,22 @@
 
         <div class="contact-wrapper animated bounceInUp">
             <div class="contact-form">
-                <form action="">
+                <form id="form" action="">
                     <p>
                         <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre">
+                        <input type="text" name="nombre" id="nombre" required>
                     </p>
                     <p>
                         <label for="mail">Correo</label>
-                        <input type="email" name="mail" id="mail">
+                        <input type="email" name="mail" id="mail" required>
                     </p>
                     <p>
                         <label for="celular">Numero celular</label>
-                        <input type="tel" name="celular" id="celular">
-                    </p>
-                    <p>
-                        <label for="pais">Pais</label>
-                        <input type="text" name="pais" id="pais">
+                        <input name="celular" id="celular" required>
                     </p>
                     <p class="block">
                         <label for="mensaje">mensaje</label>
-                        <textarea name="mensaje" id="mensaje" rows="3"></textarea>
+                        <textarea name="mensaje" id="mensaje" rows="3" required></textarea>
                     </p>
                     <p class="block">
                         <button>
@@ -135,7 +131,25 @@
                         </button>
                     </p>
                 </form>
+                <a href="mailto:zorrobrayan0@gmail.com" id="truco">mail</a>
             </div>
+
+
+            <!-- javascript para enviar el formulario por email -->
+
+            <script>
+                const $form = document.querySelector('#form')
+                const $buttonMailto = document.querySelector('#truco')
+            
+                $form.addEventListener('submit', handleSubmit)
+            
+                function handleSubmit(event) {
+                  event.preventDefault()
+                  const form = new FormData(this)
+                  $buttonMailto.setAttribute('href', `mailto:zorrobrayan0@gmail.com?subject=Mi nombre es ${form.get('nombre')}, mi mail es: ${form.get('mail')}&body=${form.get('mensaje')}`)
+                  $buttonMailto.click()
+                }
+              </script>
 
             <!-- barra lateral derecha -->
 

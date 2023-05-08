@@ -24,13 +24,23 @@ body {
     margin-bottom: 50px;
 }
 
-.avatar {
-    margin-left: 70px;
+.left h3 {
+    text-align: left;
 }
 
-.presentacion {
+.avatar {
+    border-radius: 30px;
+}
+
+.avatar1 {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.presentacion1 {
     margin-top: 125px;
     align-items: center;
+    margin-bottom: 125px;
 }
 
 
@@ -50,7 +60,8 @@ body {
 }
 
 .fondo_about {
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 

@@ -1,13 +1,52 @@
 body {
     background-color: #FFE53B;
     background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
-    background-size: cover; 
+    background-size: contain; 
     color: #fff;
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
     padding: 0 1.5em;
+    
 }
 
 .CV {
     text-align: center;
+    margin-top: 30px;
 }
+
+.b1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80vw;
+    max-width: 1400px;
+    min-width: 320px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* .boton_descargar {
+    margin-bottom: 50px;
+} */
+
+
+
+.btn {
+    width: 200px;
+    height: 80px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+

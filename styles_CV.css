@@ -6,7 +6,6 @@ body {
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
     padding: 0 1.5em;
-    
 }
 
 .CV {
@@ -37,9 +36,9 @@ img {
     border-radius: 10px;
 }
 
-/* .boton_descargar {
-    margin-bottom: 50px;
-} */
+.box_shadow {
+    box-shadow: 30px 30px 20px rgba(19, 86, 187, 0.375);
+}
 
 
 

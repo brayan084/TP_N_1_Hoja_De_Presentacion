@@ -7,6 +7,10 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+.box_shadow {
+    box-shadow: -30px 30px 20px rgba(20, 92, 199, 0.205);
+}
+
 .color {
     background-color: rgba(243, 49, 0, 0);
 }
@@ -17,7 +21,7 @@ body {
 
 .fondo_about {
     background-color: rgba(108, 165, 244, 0.384);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     border: 1px solid rgba(0, 0, 0, 0.429);
 }
 
@@ -56,10 +60,6 @@ body {
 
 .espacio {
     margin-bottom: 30px;
-}
-
-.espacio2 {
-    margin-bottom: 30px;   
 }
 
 .imagenes {
